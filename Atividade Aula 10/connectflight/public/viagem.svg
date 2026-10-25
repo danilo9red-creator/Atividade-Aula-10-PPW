@@ -1,0 +1,121 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8D5FF"/>
+      <stop offset="100%" stop-color="#FFD9F0"/>
+    </linearGradient>
+    <linearGradient id="montanhas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B69AF4"/>
+      <stop offset="100%" stop-color="#7040C4"/>
+    </linearGradient>
+    <linearGradient id="lago" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DDBBFF"/>
+      <stop offset="100%" stop-color="#A985F2"/>
+    </linearGradient>
+    <linearGradient id="aviao" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F6E8FF"/>
+    </linearGradient>
+    <clipPath id="recorte">
+      <rect width="820" height="390" rx="54"/>
+    </clipPath>
+    <g id="nuvem" fill="#FFF2FF">
+      <ellipse cx="0" cy="12" rx="35" ry="11"/>
+      <circle cx="-14" cy="4" r="15"/>
+      <circle cx="4" cy="-4" r="21"/>
+      <circle cx="24" cy="7" r="13"/>
+    </g>
+    <g id="pinheiro" fill="#35136E">
+      <path d="M0 0 L-17 32 H-8 L-23 56 H-10 L-27 82 H27 L10 56 H23 L8 32 H17 Z"/>
+      <path d="M-4 75 H4 V98 H-4 Z"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#recorte)">
+    <rect width="820" height="390" fill="url(#ceu)"/>
+
+    <circle cx="667" cy="93" r="57" fill="#FA8DC8"/>
+
+    <use href="#nuvem" x="102" y="98" opacity=".9"/>
+    <use href="#nuvem" x="273" y="54" opacity=".8"/>
+    <use href="#nuvem" x="566" y="164" opacity=".8"/>
+    <use href="#nuvem" x="747" y="118" opacity=".9"/>
+
+    <path d="M0 245 L87 174 L143 211 L202 235 L256 194 L321 239 L389 164 L457 221 L522 146 L590 208 L644 174 L711 224 L768 198 L820 223 V310 H0 Z"
+          fill="#C3A8F5"/>
+
+    <path d="M0 278 L84 222 L143 260 L203 230 L265 278 L347 204 L415 251 L503 173 L565 225 L631 204 L704 260 L766 227 L820 245 V330 H0 Z"
+          fill="url(#montanhas)"/>
+
+    <path d="M0 304 L80 273 L157 292 L243 258 L316 289 L401 239 L469 278 L551 236 L632 285 L708 249 L773 276 L820 262 V340 H0 Z"
+          fill="#5830A7"/>
+
+    <path d="M0 300 Q115 282 207 309 T409 303 T618 298 T820 286 V390 H0 Z"
+          fill="url(#lago)"/>
+
+    <path d="M0 318 Q130 300 245 324 T462 318 T670 316 T820 304 V390 H0 Z"
+          fill="#B28BF2" opacity=".65"/>
+
+    <g fill="#EBD9FF" opacity=".9">
+      <path d="M282 332 Q350 323 420 332 Q360 341 282 332Z"/>
+      <path d="M465 349 Q550 338 634 349 Q555 359 465 349Z"/>
+      <path d="M350 367 Q420 358 490 367 Q420 376 350 367Z"/>
+      <path d="M605 322 Q663 315 721 322 Q665 330 605 322Z"/>
+    </g>
+
+    <g>
+      <use href="#pinheiro" transform="translate(34 242) scale(.75)"/>
+      <use href="#pinheiro" transform="translate(66 224) scale(.95)"/>
+      <use href="#pinheiro" transform="translate(103 253) scale(.65)"/>
+      <use href="#pinheiro" transform="translate(143 259) scale(.7)"/>
+      <use href="#pinheiro" transform="translate(177 274) scale(.55)"/>
+      <use href="#pinheiro" transform="translate(704 257) scale(.7)"/>
+      <use href="#pinheiro" transform="translate(747 225) scale(.95)"/>
+      <use href="#pinheiro" transform="translate(786 209) scale(1.1)"/>
+      <use href="#pinheiro" transform="translate(815 238) scale(.8)"/>
+    </g>
+
+    <path d="M153 146 C181 188 235 188 274 160"
+          stroke="#5730A3" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="10 13" fill="none"/>
+
+    <g transform="translate(180 72) rotate(-13 180 70)">
+      <path d="M12 72 L70 61 L112 17 Q117 13 125 16 L116 62 L221 52 L275 17 Q286 12 295 17 L259 61 L335 62 Q352 63 359 72 Q351 80 335 80 L255 77 L286 116 Q290 122 283 124 L269 121 L214 78 L115 78 L124 121 Q127 129 118 129 L109 126 L68 78 L12 78 Q-3 77 -7 75 Q-2 72 12 72Z"
+            fill="#E9369D"/>
+
+      <path d="M-7 75 Q-2 70 12 72 L335 62 Q352 63 359 72 Q351 80 335 80 L12 78 Q-3 77 -7 75Z"
+            fill="url(#aviao)"/>
+
+      <path d="M116 62 L221 52 L259 61 L255 77 L115 78Z"
+            fill="#F5E7FF"/>
+
+      <path d="M70 61 L112 17 Q117 13 125 16 L116 62Z"
+            fill="#E9369D"/>
+
+      <path d="M115 78 L214 78 L269 121 Q278 126 286 122 L255 77Z"
+            fill="#C72D91"/>
+
+      <path d="M30 72 L67 64 L76 70 L60 77 L30 77Z"
+            fill="#FFFFFF"/>
+
+      <path d="M180 60 L202 60 L215 68 L180 68Z"
+            fill="#E9369D"/>
+
+      <g fill="#4B237F">
+        <circle cx="146" cy="64" r="3"/>
+        <circle cx="160" cy="63" r="3"/>
+        <circle cx="174" cy="62" r="3"/>
+        <circle cx="188" cy="61" r="3"/>
+        <circle cx="202" cy="60" r="3"/>
+        <circle cx="216" cy="59" r="3"/>
+        <circle cx="230" cy="58" r="3"/>
+        <circle cx="244" cy="57" r="3"/>
+        <circle cx="258" cy="56" r="3"/>
+        <circle cx="272" cy="56" r="3"/>
+        <circle cx="286" cy="57" r="3"/>
+        <rect x="315" y="64" width="18" height="7" rx="3.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
